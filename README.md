@@ -8,3 +8,4 @@ all kinds of memo recorded anytime anywhere
 * play around with programming languages
   * [JavaScript Memo](https://github.com/fimh/memo/wiki/JavaScript-Memo)
   * [Kotlin Memo](https://github.com/fimh/memo/wiki/Kotlin-Memo)
+  * [Swift Memo](https://github.com/fimh/memo/wiki/Swift-Memo)
