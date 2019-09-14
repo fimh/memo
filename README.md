@@ -10,3 +10,4 @@ all kinds of memo recorded anytime anywhere
   * [Kotlin Memo](programming_languages/Kotlin_memo.md)
   * [Swift Memo](programming_languages/Swift_memo.md)
   * [C++ Memo](programming_languages/C++_memo.md)
+  * [Java Memo](programming_languages/Java_memo.md)
