@@ -38,6 +38,7 @@ For all shortcuts, refer to [Chrome keyboard shortcuts](https://support.google.c
     * statement up/down - `Shift + Command + Up/Down`
     * line up/down - `Shift + Option + Up/Down`
     * note, `move statement` cannot move a line out of its function, while `move line` could, refer to [IntelliJ IDEA: Move line?](https://stackoverflow.com/a/8362822) for details
+* File Structure - `Command + F12`
 
 For details, refer to [Mastering IntelliJ IDEA keyboard shortcuts](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
 
@@ -45,6 +46,8 @@ For details, refer to [Mastering IntelliJ IDEA keyboard shortcuts](https://www.j
 
 * Command Palette - `Shift + Command + P`
 * Format Document - `Shift + Option + F`
+* Go to Symbol in File (just as `File Structure` in `IDEA`) - `Shift + Command + O`
+* Open Recent Files - `Control + R`
 
 For details, refer to [Visual Studio Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 
