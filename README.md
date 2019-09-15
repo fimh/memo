@@ -3,7 +3,9 @@ all kinds of memo recorded anytime anywhere
 
 ## manifest
 
-* improve productivity via [Shortcuts Memo](productivity/Shortcuts_memo.md)
+* improve productivity via
+  * [Shortcuts Memo](productivity/Shortcuts_memo.md)
+  * [Git Memo](productivity/Git_memo.md)
 * explore the secrets of the universe via [Math Memo](math/Math_memo.md)
 * play around with programming languages
   * [JavaScript Memo](programming_languages/JavaScript_memo.md)
