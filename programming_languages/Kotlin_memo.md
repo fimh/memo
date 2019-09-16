@@ -57,6 +57,25 @@ scope functions
 
 > for details, refer to [Scope Functions](https://kotlinlang.org/docs/reference/scope-functions.html)
 
+`object`/`companion object`/`object expression`
+* using **object** keyword instead of `class` will create a `singleton` class for you. decompiling kotlin bytecode will help you understand how it generate a `singleton` class, which is also thread-safe
+    * a `public static final [Type] INSTANCE`
+    * a private no-arg constructor
+    * a static block (or named [`static initialization block`](https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html)) in charge of the singleton initialization
+* a **companion object** is much like an `object` class, but achieve the `singleton` in a slightly different way. besides, it only exists inside another class.
+    * the enclosing class holds an constant reference to the `companion object` via `pubic static final [Type] [Constant_Name] = new [Type]((DefaultConstructorMarker)null)` - `kotlin.jvm.internal.DefaultConstructorMarker` cannot be accessed outside
+    * the `companion object` class doesn't initialize itself via static block. instead
+        * it add a new public constructor with one argument typed `DefaultConstructorMarker` - seems we cannot call this constructor in our code, it is used by kotlin itself
+        * the enclosing class now initialize the `companion object` via a public static final field
+* using an **object expression**, you can define an anonymous, unnamed class and at the same time create one instance of it, called an `anonymous object`. it is the [`anonymous class`](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html), you can find it when you decompile the kotlin bytecode
+* for the difference between `object`, `companion object` and `object expression`, refer to [Semantic difference between object expressions and declarations](https://kotlinlang.org/docs/reference/object-declarations.html#semantic-difference-between-object-expressions-and-declarations)
+
+> for details, refer to
+> * [Companion object in Kotlin](https://medium.com/@agrawalsuneet/companion-object-in-kotlin-5251e03d6423)
+> * [Objects and companion objects](https://kotlinlang.org/docs/tutorials/kotlin-for-py/objects-and-companion-objects.html)
+> * [Object Expressions and Declarations](https://kotlinlang.org/docs/reference/object-declarations.html#companion-objects)
+> * [Calling Kotlin from Java](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html#static-fields)
+
 ## DSA
 
 data structures
