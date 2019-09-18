@@ -23,6 +23,15 @@ popular JavaScript engines
 
 for details, refer to [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
 
+transpiler (like `babel`)
+* source-to-source compilers, a tool that read source code written in one programming language, and produce the equivalent code in another language
+* why do we need a transpiler
+    * allow us to write compile-to-JavaScript languages, like CoffeeScript, TypeScript, or ClojureScript
+    * let up use new and potential JavaScript features, reliably
+    * contribute to the development of the ECMAScript specification
+
+for details, refer to [JavaScript Transpilers: What They Are & Why We Need Them](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them)
+
 ## JavaScript Engine
 
 A engine compiles and interprets JavaScript code.
