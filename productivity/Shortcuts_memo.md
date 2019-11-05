@@ -48,8 +48,19 @@ For details, refer to [Mastering IntelliJ IDEA keyboard shortcuts](https://www.j
 * Format Document - `Shift + Option + F`
 * Go to Symbol in File (just as `File Structure` in `IDEA`) - `Shift + Command + O`
 * Open Recent Files - `Control + R`
+* Quick Open - `Command + P`
 
 For details, refer to [Visual Studio Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+
+### Xcode
+
+* Build - `Command + B`
+* Run - `Command + R`
+* Clean Build Folder - `Shift + Command + K`
+* Open Quickly (just as Quick Open in VSCode) - `Shift + Command + O`
+
+For details, refer to [Xcode Keyboard Shortcuts and Gestures
+Table of Contents](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html)
 
 ### iTerm
 
